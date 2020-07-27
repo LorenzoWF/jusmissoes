@@ -1,4 +1,19 @@
 ---
 label: News
 hide_body: false
-fields: []
+fields:
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+  description: Description
+- name: calendar
+  type: datetime
+  label: Calendar
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
